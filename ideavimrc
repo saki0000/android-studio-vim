@@ -1,0 +1,19 @@
+let mapleader="\<Space>"
+set surround
+set easymotion
+set nerdtree
+set noswapfile
+
+nnoremap <leader>l $
+nnoremap <leader>h 0
+nnoremap <leader>n :NERDTree<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
+
+nnoremap gt :action Switcher<CR>
+nnoremap K :action QuickJavaDoc<CR>
+nnoremap ga :action ShowIntentionActions<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gb :action Back<CR>
+nnoremap gf :action Forward<CR>
